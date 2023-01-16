@@ -14,7 +14,7 @@ def best_score(myList : list):
         elif type( myList[i] ) == str :
             for i in myList[i] :
                 counting += 1
-            numList.append( counting ) 
+            numList.append( s ) 
     return print(f' Min number is { min(numList) } and Max number is { max(numList) }')
 
 
