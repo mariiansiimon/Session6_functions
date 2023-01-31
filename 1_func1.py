@@ -7,3 +7,7 @@ def invert( numList : list ):
 invert( [3,5,1,7,2] )
 
 
+# or 
+
+def list_reverse(L):
+    return print( L[::-1] )
