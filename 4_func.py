@@ -7,3 +7,14 @@ def edu_distance( a1, b1, a2, b2 ):
     return print(final_d)
 
 edu_distance(30, 12 , 6, 2)
+
+
+
+# teacher's answer
+
+
+
+import math
+
+def cal_dist(a, b):
+    return math.hypot(a[0] - b[0], a[1] - b[1])
